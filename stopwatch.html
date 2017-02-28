@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>秒表</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="dial" id="dial" style="top: 20px; left:20px;">
+            <!--秒针  -->
+            <div class="second">
+                <!--可视区域-->
+                <span></span>
+            </div>
+            <!--圆心-->
+            <p class="center_point"></p>
+            <!--开始\暂停\结束按钮-->
+            <ul class="btn">
+                <li class="sign">
+                    <i class="btn-i1"></i>
+                    <i class="btn-i2"></i>
+                </li>
+                <li class="start">
+                    <i class="btn-i1"></i>
+                    <i class="btn-i2"></i>
+                </li>
+                <li class="reset">
+                    <i class="btn-i1"></i>
+                    <i class="btn-i2"></i>
+                </li>
+            </ul>
+        </div>
+        <!--计数器操作-->
+            <div class="time-operation">
+                <div>
+                    <img class="operation-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488284239208&di=7e3ae9aacc2bc99c5ed65d88be94267e&imgtype=0&src=http%3A%2F%2Fcdns2.freepik.com%2Ffree-photo%2Fhand-pointing-to-left-direction_318-41855.jpg" alt="">
+                    <span class="operation-annotation">这边也可以点哦</span>
+                </div>
+                <div class="time-show">
+                    <h1>0:00:00:00</h1>
+                </div>
+                <div class="operation">
+                    <button class="operation-sign">打表</button>
+                    <button class="operation-start">开始</button>
+                    <button class="operation-reset">重置</button>
+                </div>
+            </div>
+            <!--打表区域-->
+
+            <div class="exit">
+
+            </div>
+    </main>
+
+
+    <script src="http://cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
