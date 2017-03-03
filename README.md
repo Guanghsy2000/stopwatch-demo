@@ -7,4 +7,4 @@
 ```
 ### 效果展示
 
-![演示动画](git@github.com:Guanghsy2000/stopwatch-demo/raw/master/演示动画/demo.gif)
+![演示动画](https://github.com/Guanghsy2000/stopwatch-demo/raw/mastr/演示动画/demo.gif)
