@@ -6,3 +6,5 @@
 打表动画效果要引入animate.css 插件
 ```
 ### 效果展示
+
+![演示动画](git@github.com:Guanghsy2000/stopwatch-demo/raw/演示动画/demo.gif)
